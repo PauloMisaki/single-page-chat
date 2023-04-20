@@ -27,5 +27,6 @@ node server.js
 ```
 http server
 ```
-### Também é possível executar a aplicação pelo comando npm start ou yarn start.
-#### Acessando pela URL: localhost:8080/index.html em todos os casos.
+##### Também é possível executar a aplicação pelo comando npm start ou yarn start.
+
+4. Acesse a URL: localhost:8080/index.html no navegador de sua escolha.
