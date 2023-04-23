@@ -13,6 +13,14 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
+  } else if (req.url === '/style.css') {
+    res.setHeader('Content-type', 'text/css');
+    res.write(fs.readFileSync('./public/style.css'));
+    res.end();
+  } else if (req.url === '/chat.js') {
+    res.setHeader('Content-type', 'text/javascript');
+    res.write(fs.readFileSync('./public/chat.js'));
+    res.end();
   } else {
     res.writeHead(404);
     res.end(`Arquivo não encontrado: ${req.url}`);
