@@ -3,23 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Chat App</title>
-    <style></style>
+    <link rel="stylesheet" href="./style.css?v=4"/>
   </head>
   <body>
-    <div id="web-app">
-      <div class="active-chat" id="main-chat">
-      </div>
-      <form>
-        <input type="text" placeholder="Digite sua mensagem">
-        <button type="submit">Enviar</button>
-      </form>
+    <div class="person-selector">
+      <button class="button person-selector-button active-person" id="paulo-selector">Paulo</button>
+      <button class="button person-selector-button" id="pedro-selector">Pedro</button>
     </div>
-    <script>
-      console.log('Página carregada com sucesso')
-    </script>
+    <div class="chat-container">
+      <h2 class="chat-header"></h2>
+      <div class="chat-messages">
+        <div class="message blue-bg">
+          <div class="message-sender">Paulo</div>
+          <div class="message-text">Eae pedro, tudo certo?</div>
+          <div class="message-timestamp">10:30</div>
+        </div>
+        <div class="message gray-bg">
+          <div class="message-sender">Pedro</div>
+          <div class="message-text">Tudo mais ou menos, e com você?</div>
+          <div class="message-timestamp">10:35</div>
+        </div>
+        </div>
+      </div>
+      <form action="" class="chat-input-form">
+        <input type="text" class="chat-input" required placeholder="Digite sua mensagem">
+        <button class="button send-button">Enviar</button>
+      </form>
+      <button class="button clear-chat-button">Limpar conversa</button>
+    </div>
+    <script src="/script/chat.js"></script>
   </body>
   <!-- 
-    <script src="chat.js"></script>
     <script src="redux.js" type="module"></script>
   -->
 </html>
