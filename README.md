@@ -18,13 +18,13 @@ yarn add .
 ##### para instalar as dependências do projeto.
 
 3. Por fim, para iniciar a aplicação:
-##### Ainda na pasta raiz da aplicação, e para executar com node ou http-server, respectivamente:
+##### Ainda na pasta raiz da aplicação, e para executar com node ou http-server, respectivamente, no seu terminal:
 ```
 node server.js
 ```
 ##### ou
 ```
-http server
+http-server
 ```
 ##### Também é possível executar a aplicação pelo comando npm start ou yarn start.
 
