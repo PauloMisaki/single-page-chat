@@ -4,7 +4,6 @@
 #### Uso as seguintes libs para o projeto:
   - http-server: Para que seja possivel iniciar o servidor sem a utilização do node.
   - nodemon: Para iniciar o servidor de forma mais performática enquanto desenvolvo, e acompanhar as mudanças na aplicação com mais facilidade.
-  - socket.io: Para utilizar o WebSocket nativo de maneira mais simples e construir a estrutura de mensagens e usuários.
 
 ### Para iniciar a aplicação localmente:
 1. Usando seu terminal, navegue até a pasta raiz da aplicação:
